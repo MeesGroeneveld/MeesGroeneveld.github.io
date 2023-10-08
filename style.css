@@ -1,0 +1,124 @@
+/*background*/
+
+body {
+    background-image: url("images/mountain.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+/*felxbox*/
+.wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/*imgeges*/
+
+img {
+    border: white;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+img.bruh {
+    display: block;
+    width: 705px;
+    height: 494px;
+}
+
+img.logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+img.ferret1{
+    width:715px;
+    height: 450px;
+}
+
+/*paragrafs*/
+
+p {
+    background-color: rgba(255, 255, 255, 0.17); 
+    font-size: 20px;
+    color: white;
+    border: white;
+    border-radius: 4px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+p a {
+    color: white;
+}
+
+/*tittles*/
+
+h2,h3,h4,h5 { 
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.17); 
+    font-size: 30px; 
+    color: white;
+    border: 4px white;
+
+    border-radius: 4px;
+
+    padding-left: 10px;
+    padding-bottom:1px;
+    padding-right: 10px;
+    padding-top:4px;
+
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.17); 
+    font-size: 35px; 
+    color: white;
+    border: white;
+    border-radius: 4px; 
+    padding-left: 10px;
+    padding-bottom:1px;
+    padding-right: 10px;
+    padding-top:4px;
+    text-align: center;
+}
+
+/*navagation*/
+
+nav, ul, li{    
+    display:flex;
+    text-align: center;
+    margin-right: 15px;
+}
+
+nav a{
+    background-color: rgba(255, 255, 255, 0.17);
+    border : 4px white;
+    border-radius:4px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+nav a:hover{
+    transform: scale(1.2);
+    transition: all 250ms;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+footer a {
+color: white;
+border : 4px white;
+border-radius:4px;
+}
